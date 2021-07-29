@@ -95,7 +95,7 @@
         width: 400px;
         background-color:#F2F2F2;
         padding: 20px;
-        margin-left: 130px;
+        margin-left: 120px;
         padding-right: 10px;
         margin-right: 0;
         margin-top: 5px;
@@ -131,13 +131,18 @@
     padding: 10px;
     padding-left: 0;
     border:none;
+    font-family: $font;
+    font-weight: 500;
+    font-size: 25px;
+}
+.form__input:focus{
+    outline: none;
 }
 .form__input::placeholder{
     font-family: $font;
     font-weight: 500;
     font-size: 25px;
     color:#777472;
-    border:none;
 }
 .form__button{
     width: 100px;
