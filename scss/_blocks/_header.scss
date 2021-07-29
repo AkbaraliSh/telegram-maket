@@ -1,0 +1,21 @@
+@import "./variables";
+.header{
+    width: 600px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color:$color;
+    padding: 10px 20px;
+}
+.header__point{
+    @extend %header__point;
+}
+.header__title{
+    font-family:$font;
+    font-weight: 500;
+    font-size: 35px;
+    color:#fff;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 280px;
+}
